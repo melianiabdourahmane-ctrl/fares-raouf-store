@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fares & Raouf | متجرنا</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+<a href="#" class="logo">Fares<span>&</span>Raouf</a>
+<nav class="nav">
+<a href=" #home">الرئيسية</a>
+<a href="#products">المنتجات</a>
+<a href="categories">الأقسام</a>
+
+
+</nav>
+<button class="cart-btn"
+onclick="showCart()">
+<span id="cart-count">0السلة</span>
+
+
+
+</button>
+
+
+
+
+    </header>
+    <main>
+
+<section class="hero" id="home">
+<div class="hero-content">
+<p class="small title">مرحبا بكم في متجرنا</p>
+<h1>كل ماتحب,<span>في مكان واحد</span></h1>
+<p>اِكتشف أحدث اِكسسوارات الهواتف والعطور والسوايع.</p>
+<a href="#products" class="main-btn">اكتشف منتجاتنا</a></div>
+
+
+
+
+
+</section>
+
+<section class="categpries" id="categories">
+<h2>تسوق حسب <span>القسم</span></h2>
+<div class="category-list">
+<a href="#products" class="category">اِكسسوارات الهاتف</a>
+<a href="#products" class="category">السوايع</a>
+<a href="#products" class="category">العطور</a>
+
+
+
+</div>
+
+
+</section>
+<section class="products-section" id="products">
+<h2>منتجات <span>مختارة </span></h2>
+<input type="search" id="search" placeholder="اِابحث عن منتج..." oninput="searchProducts()">
+<div class="products" id="products-list"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+<h3>Fares & Raouf</h3>
+<p>شكرا لزيارتكم متجرنا</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
